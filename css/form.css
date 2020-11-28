@@ -2,6 +2,7 @@
     display: inline-block;
     width: 100%;
     color: #444;
+    margin: 0 5% var(--hero-space);
 }
     .form > input {
         display: inline-block;
