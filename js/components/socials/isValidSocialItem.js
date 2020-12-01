@@ -1,3 +1,8 @@
+/**
+ * renderSocials() funkcijos metu vykdomame cikle gaunamu duomenu validacija
+ * @param {Object} itemObject Objektas aprasantis viena social nuoroda, kuri sudaro ikona ir nuoroda (href)
+ * @returns {boolean} Jei patikrinimo metu randama logine klaida, tai grazins 'false', priesingu atveju - 'true'
+ */
 function isValidSocialItem(itemObject) {
     if (typeof itemObject !== 'object') {
         console.warn('ERROR: social elemento turetu buti objektas');

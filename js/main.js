@@ -4,8 +4,6 @@ import { socialsData } from './data/socialsData.js';
 renderSocials('footer > .row', socialsData);
 
 
-
-
 // const h1DOM = document.querySelector('h1');
 
 // const inputDOM = document.querySelectorAll('main .form > input');
