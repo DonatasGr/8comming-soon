@@ -10,10 +10,13 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <!-- 3rd party -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <!-- component -->
+    <link rel="stylesheet" href="./css/button.css">
     <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/mouse.css">
+    <link rel="stylesheet" href="./css/progress-bar.css">
     <!-- custom -->
     <link rel="stylesheet" href="./css/custom.css">
 </head>
@@ -25,31 +28,75 @@
             <h1>Coming soon</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius possimus, illum architecto accusamus eveniet quia?</p>
             <div class="clock">
-                CLOCK
+                <div class="time-box">
+                    <h2>432</h2>
+                    <span>Days</span>
+                </div>
+                <div class="time-box">
+                    <h2>09</h2>
+                    <span>Hours</span>
+                </div>
+                <div class="time-box">
+                    <h2>37</h2>
+                    <span>Minutes</span>
+                </div>
+                <div class="time-box">
+                    <h2>39</h2>
+                    <span>Seconds</span>
+                </div>
             </div>
             <form class="form">
-                SUBSCRIBE FORM
+                <input type="email" placeholder="Email" required>
+                <!-- <input type="submit" value="Subscribe now!"> -->
+                <div class="btn">Subscribe now!</div>
             </form>
             <div class="mouse">
-                MOUSE
+                <div class="wheel"></div>
             </div>
         </div>
     </div>
     <main class="container">
         <div class="row">
-            <div class="column left">LEFT CONTENT</div>
-            <div class="column right">RIGHT CONTENT</div>
+            <div class="column left">
+                <h2>About Startup</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum enim accusantium doloremque numquam dicta, <a href="#">Matrox</a> temporibus corrupti corporis vel eaque laboriosam?</p>
+                <div class="progress-bar">
+                    PROGRESS BAR
+                </div>
+                <div class="progress-bar">
+                    PROGRESS BAR
+                </div>
+                <div class="progress-bar">
+                    PROGRESS BAR
+                </div>
+            </div>
+            <div class="column right">
+                <h2>Have any qestion?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum consequatur, <a href="mailto:vardenis@pastelis.xyz">vardenis@pastelis.xyz</a> fugit placeat officiis harum culpa quidem tenetur quia fuga eos.</p>
+                <form class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email" required>
+                    <textarea maxlength="1000" placeholder="Message" required></textarea>
+                    <!-- <input type="submit" value="Send message"> -->
+                    <div class="btn">Send message</div>
+                </form>
+            </div>
         </div>
     </main>
     <footer class="container bg-main-color">
-        <div class="row">
-            SOCIAL
-        </div>
+        <div class="row"></div>
         <div class="row-short">
-            BOTTOM TEXTS
+            <img src="./img/logo-footer.png" alt="matroxLogo">
+            <div class="text-trio">
+                <div class="text">Copyright &copy; 2020 <a href="#">Matrox</a></div>
+                <div class="text">All right reserved</div>
+                <div class="text">Designed by <a href="#">TrendyTheme</a></div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iure. Deleniti <a href="#"></a>200+</a> natus velit voluptate aliquid quibusdam dolore atque <a href="#">Matrox</a> nesciunt explicabo.</p>
         </div>
     </footer>
 
     <script src="./js/main.js" type="module"></script>
 </body>
+
 </html>
